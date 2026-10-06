@@ -1,0 +1,9 @@
+timestamp,user_id,event_type,source_ip,target_resource,device_id,risk_level
+2026-10-06 14:00:00,user_123,login,192.168.1.50,N/A,laptop_001,low
+2026-10-06 14:00:30,user_456,file_access,192.168.1.51,/sales/data,laptop_002,low
+2026-10-06 14:05:00,user_123,login,103.45.67.89,N/A,laptop_001,high
+2026-10-06 14:05:30,user_123,file_access,103.45.67.89,/sensitive/financial,laptop_001,high
+2026-10-06 14:10:00,user_123,file_copy,103.45.67.89,/sensitive/financial,usb_device_999,high
+2026-10-06 14:15:00,user_123,usb_plugin,103.45.67.89,external_storage,usb_device_999,high
+2026-10-06 15:00:00,user_789,login,192.168.1.52,N/A,laptop_003,low
+2026-10-06 15:05:00,user_789,file_access,192.168.1.52,/reports/monthly,laptop_003,low
